@@ -402,7 +402,10 @@ button {
     color: #afb1b8;
 }
 
-.client-container:hover,
+.client-container:hover {
+        color: var(--brand-color);
+        border: 1px solid var(--brand-color);
+    }
 .client-container:focus {
     color: var(--brand-color);
     border: 1px solid var(--brand-color);
@@ -488,15 +491,16 @@ button {
 }
 
 .footer-join {
+    
     display: block;
+    margin-bottom: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 100%;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-bottom: 20px;
     height: auto;
 }
 
@@ -515,6 +519,7 @@ button {
     border-radius: 50%;
     margin-right: 10px;
     color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .sb-link:last-child {
@@ -532,6 +537,7 @@ button {
 
 .sb-icon {
     fill: currentColor;
+    
 }
 
 
