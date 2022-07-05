@@ -78,6 +78,8 @@ p {
 }*/
 
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
     margin-right: 93px;
     margin-top: 0;
     margin-bottom: 0;
@@ -99,8 +101,8 @@ p {
 
 .nav-link{
     display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: var(--text-color-primary);
     font-weight: 500;
@@ -119,6 +121,8 @@ p {
 
 .nav-contacts a{
     display: inline-flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: var(--text-color-secondary);
     font-weight: 500;
@@ -129,6 +133,7 @@ p {
 }
 
 .nav-contacts {
+    
     align-items: center;
     margin-bottom: 0;
 }
@@ -222,6 +227,9 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.section-advantages {
+    padding-bottom: 47px;
+}
 
 .advantages-list {
     width: calc(100%  - var(--set-gap30)*3/4);
@@ -278,7 +286,9 @@ button {
 .clients {
     padding-bottom: var(--set-gap94);
 }
-
+.whatwedo {
+    padding-top: 47px;
+}
 .whatwedopic {
     display: block;
     width: calc(100% - var(--set-gap30)*2/3);
@@ -294,6 +304,9 @@ button {
 }
 
 .team-card {
+    display: block;
+    max-width: 100%;
+    height: auto;
     background-color: var(--background-color);
     width: 270px;
     
@@ -348,7 +361,7 @@ button {
     fill: var(--background-color);
 }
 
-.team-icons:focus .team-link-icon {
+.team-link:focus .team-link-icon {
     fill: var(--background-color);
 }
 
@@ -419,6 +432,8 @@ button {
 }
 
 #footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
     
 }
@@ -446,8 +461,7 @@ button {
 }
 
 .footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
     display: flex;
 }
 .logo-footer {
