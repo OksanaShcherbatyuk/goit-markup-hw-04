@@ -348,7 +348,7 @@ button {
     fill: var(--background-color);
 }
 
-.team-icons:focus .team-link-icon {
+.team-link-icon:focus {
     fill: var(--background-color);
 }
 
@@ -411,8 +411,8 @@ button {
 .client-icon {
     fill: currentColor;
     display: block;
-    width: 106;
-    height: 60;
+    width: 106px;
+    height: 60px;
 }
 
 #footer {
