@@ -13,9 +13,6 @@ body {
     color: var(--text-color-primary);
 }
 
-.wrapper {
-    max-width: 1600px;
-}
 
 a {
     text-decoration: none;
@@ -395,7 +392,7 @@ button {
 }
 
 .client-container {
-    max-height: 90px;
+    height: 92px;
     width: 170px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -414,7 +411,8 @@ button {
 .client-icon {
     fill: currentColor;
     display: block;
-    max-width: 30%;
+    width: 106;
+    height: 60;
 }
 
 #footer {
