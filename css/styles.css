@@ -348,7 +348,7 @@ button {
     fill: var(--background-color);
 }
 
-.team-link-icon:focus {
+.team-icons:focus .team-link-icon {
     fill: var(--background-color);
 }
 
